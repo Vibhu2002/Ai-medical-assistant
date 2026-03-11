@@ -1,0 +1,6 @@
+**/.idea/
+**/.vscode/
+**/target/
+**/__pycache__/
+**/.venv/
+ml-service/models/*.joblib

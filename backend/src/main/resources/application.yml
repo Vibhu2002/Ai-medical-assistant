@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ai_medical_assistant
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+app:
+  jwt:
+    secret: change-this-in-production-very-long-secret-key-1234567890
+    expirationMs: 86400000
+  ml:
+    base-url: http://localhost:8001

@@ -1,0 +1,4 @@
+body { background-color: #f8f9fa; }
+.hero { padding: 4rem 1rem; background: linear-gradient(90deg, #0d6efd, #0dcaf0); color: #fff; border-radius: 12px; }
+.disclaimer { font-size: 0.95rem; background: #fff3cd; border-left: 4px solid #ffc107; padding: 0.8rem; }
+.card-hover:hover { transform: translateY(-4px); transition: 0.2s ease; }
